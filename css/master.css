@@ -1,0 +1,184 @@
+
+
+.nav-main {
+  background-color: #0D181E;
+  padding: .5rem 2rem;
+}
+
+.search-home {
+  margin: auto;
+  display: inline-block;
+}
+
+.hp-search-btn {
+  border-color: #4a5156;
+  color: #eeeeee;
+}
+
+.hp-search-btn:hover {
+  background-color: #45ad68;
+}
+
+.login-signup {
+  border-color: #4a5156;
+  color: #eeeeee;
+}
+
+.login-signup:hover {
+  border-color: #c2940e;
+  background-color: #0D181E;
+  color: #eeeeee;
+}
+
+#title {
+  background-image: url('../images/division_bg.jpg');
+  box-shadow: 0 3000px rgba(13, 24, 30, 0.6) inset;
+  background-repeat: no-repeat;
+  background-size: 100vw auto;
+  height: 70vh;
+}
+
+  @font-face {
+    /* https://github.com/TypeNetwork/Amstelvar */
+    font-family: Dosis-Bold;
+    src: url('../fonts/Dosis/Dosis-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  #font-dosis-bold {
+    font-family: Dosis-Bold;
+    font-variation-settings: 'wdth' 400, 'wght' 98;
+  }
+
+  @font-face {
+    /* https://github.com/TypeNetwork/Amstelvar */
+    font-family: Dosis-Regular;
+    src: url('../fonts/Dosis/Dosis-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  #font-dosis-regular {
+    font-family: Dosis-Regular;
+    font-variation-settings: 'wdth' 400, 'wght' 98;
+  }
+
+  @font-face {
+    /* https://github.com/TypeNetwork/Amstelvar */
+    font-family: SourceSansPro-Regular;
+    src: url('../fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  #font-SourceSansPro-Regular {
+    font-family: SourceSansPro-Regular;
+    font-variation-settings: 'wdth' 400, 'wght' 98;
+  }
+
+.row {
+  padding: 3% 5%;
+}
+
+.hp-welcome-signup {
+  padding-left: 10%;
+}
+
+h1 {
+  font-family: 'Dosis-Regular', 'Dosis-Regular', sans-serif;
+  font-size: 5rem;
+  width: 80%;
+}
+
+
+.hp-notifs {
+font-family: 'SourceSansPro-Regular', 'SourceSansPro', sans-serif;
+font-size: 1rem;
+color: #eeeeee;
+margin: 1rem;
+}
+
+.hp-gamer-icons {
+  border-radius: 100%;
+  width: 4rem;
+  height: 4rem;
+  float: left;
+  margin: 1rem 2rem;
+  border: 3px solid #f8c512;
+}
+
+.hp-notifs-section {
+  margin: auto;
+}
+
+.hp-notif-div {
+  margin: auto 0;
+  clear: both;
+  display: flex;
+}
+
+.hp-meet-slogan {
+  color: #f8c512;
+}
+
+.hp-title-big {
+  color: #eeeeee;
+}
+
+.notif-label {
+  font-size: 20px;
+  color: #f8c512;
+  font-family: 'SourceSansPro-Regular', 'SourceSansPro', sans-serif;
+}
+
+.hp-email-notif-input {
+  width: 30rem;
+  padding-bottom: 5px;
+}
+
+.hp-email-notif-btn {
+  width: 30rem;
+  background-color: #f8c512;
+  font-size: 24px;
+  color: #0c1217;
+  border: none;
+}
+
+.hp-email-notif-btn:hover {
+  background-color: #c2940e;
+}
+
+.textbox {
+  width: 30rem;
+  margin: 2rem 0;
+}
+
+.login-box {
+  width: 30rem;
+  margin: 3rem 0;
+}
+
+.textbox input {
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: 2px solid #eeeeee;
+  color: #eeeeee;
+}
+
+.textbox input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #eeeeee;
+  opacity: 1; /* Firefox */
+}
+
+.textbox input:focus {
+  background: none;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #c2940e;
+}
+
+.hp-body {
+  background-color: #f1f1f1;
+}
